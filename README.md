@@ -1,6 +1,6 @@
 # Fetch
 
-This project is a Django Web application that retrieves data from an AWS API and creates a modern and human readable HTML list.
+This project is a Django Web application that retrieves data from an AWS API and creates a user-friendly HTML list.
 
 ## Motivation
  Combined with an internal drive to learn more about front end development as well as a required component for a technical interview, this project is a deeper example of leveraging python and html for front-end development.
