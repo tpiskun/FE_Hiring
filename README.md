@@ -3,17 +3,17 @@
 This project is a Django Web application that retrieves data from an AWS API and creates a user-friendly HTML list.
 
 ## Motivation
- Combined with an internal drive to learn more about front end development as well as a required component for a technical interview, this project is a deeper example of leveraging python and html for front-end development.
+ Combined with an internal drive to learn more about front end development as well as a required component for a technical interview, this project is a deeper example of leveraging python, javascript, and html for front-end development.
 
 ## Features
 This application contains the following features:
 * List Grouping:
-  * All items that a returned after the fetch API is executed will return a `listID` value
+  * All items that are returned after the fetch API is executed, will return a `listID` value
   * The Application will group the items by the appropriate `listID`
   * The Application will filter out on any items where the `name` value is either `""` or `null`
-  * Once all the data is retrieved and sorted, an unordered list is printed on the browser
+  * Once all the data is retrieved and sorted, an unordered list is created
 
-Leveraging pre-existing Django features, there is a file called views.py that outlines all of the Python methods and functionalities.
+Leveraging pre-existing Django features, there is a file called views.py that outlines all of the Python methods and functionalities. There is also an index.js file that contains all of the client-side API calls.
 
 ## Installation
 This project requires Django. Furthermore, to avoid any CORS related issues, the `django-cors-headers` will need to be installed to the project as well as the Django backend applications. Also, the server IP address will need to be added for whitelisting.
