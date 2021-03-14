@@ -23,7 +23,8 @@ Since this project uses Django, I used the Django documentation to research and 
   https://docs.djangoproject.com/en/3.0/
 
 The AWS API that I am using is:\
-  https://fetch-hiring.s3.amazonaws.com/hiring.json\
+  https://fetch-hiring.s3.amazonaws.com/hiring.json
+\
 No Documentation is included.
 
 ## How to Use?
