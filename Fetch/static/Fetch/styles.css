@@ -1,0 +1,28 @@
+h1{
+  font-size: 65px;
+  text-align: left;
+}
+
+ul{
+  text-align: center;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+ul li{
+  padding-bottom: 8px;
+  padding-top: 8px;
+  background-color: #C2DACE;
+  border-radius: 25px;
+}
+
+ul li:nth-child(2n){
+  padding-bottom: 8px;
+  padding-top: 8px;
+  background-color: #087E8B;
+  border-radius: 25px;
+}
+
+body {
+  background-color: #FFF8F0;
+}

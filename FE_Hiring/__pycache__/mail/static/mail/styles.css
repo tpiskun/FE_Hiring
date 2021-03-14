@@ -1,0 +1,23 @@
+textarea {
+    min-height: 400px;
+}
+
+#inbox-view {
+  padding-left: 10px;
+}
+
+
+p{
+    white-space:pre-wrap;
+}
+
+span{
+    text-align: right;
+    float:right;
+    font-weight: lighter;
+}
+
+span1{
+  font-weight: 600;
+  padding-right: 5px;
+}

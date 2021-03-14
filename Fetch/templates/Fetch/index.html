@@ -1,0 +1,14 @@
+{% extends "Fetch/layout.html" %}
+{% load static %}
+
+{% block body %}
+  <h1>FETCHING A LIST...</h1>
+      <div class="container">
+        <ul id="api-view">
+        </ul>
+      </div>
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'Fetch/index.js' %}"></script>
+{% endblock %}
