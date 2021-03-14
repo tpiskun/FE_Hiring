@@ -19,12 +19,12 @@ Leveraging pre-existing Django features, there is a file called views.py that ou
 This project requires Django. Furthermore, to avoid any CORS related issues, the `django-cors-headers` will need to be installed to the project as well as the Django backend applications. Also, the server IP address will need to be added for whitelisting.
 
 ## API Reference
-Since this project uses Django, I used the Django documentation to research and clarify any additional features and functionality used in this project:
+Since this project uses Django, I used the Django documentation to research and clarify any additional features and functionality used in this project:\
   https://docs.djangoproject.com/en/3.0/
 
-The AWS API that I am using is:
-  https://fetch-hiring.s3.amazonaws.com/hiring.json
-No Documentation is included. 
+The AWS API that I am using is:\
+  https://fetch-hiring.s3.amazonaws.com/hiring.json\
+No Documentation is included.
 
 ## How to Use?
 This is to be run just like any other Django application. After locating the manage.py file in the application directory, run the following command in terminal:
